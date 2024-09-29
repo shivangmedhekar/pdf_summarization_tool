@@ -63,7 +63,9 @@ pip  install  -r  requirements.txt
 
 1.  **Run the Application**
 
-    `streamlit run pdf.py` 
+    ```bash
+	streamlit run pdf.py
+	```
     
 2.  **Interact with the App**
     - Open the provided URL in your web browser.
@@ -97,7 +99,9 @@ pip  install  -r  requirements.txt
 
 The application requires an OpenAI API key to function correctly. Store your API key in a `.env` file in the root directory:
 
-`OPENAI_API_KEY=your_openai_api_key` 
+```bash
+OPENAI_API_KEY = #your_openai_api_key
+``` 
 
 ## Technologies Used
 
