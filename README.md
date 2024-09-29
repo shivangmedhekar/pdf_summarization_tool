@@ -16,16 +16,14 @@ The **PDF Summarization App** is a Streamlit-based web application that allows u
 
   
 
-## Requirements
-### Prerequisites
-Ensure you have the following installed:
--  **Python 3.7+**
--  **Streamlit**
--  **OpenAI API Key**
--  **HuggingFace Transformers**
--  **LangChain**
--  **PyPDF2**
--  **python-dotenv**
+## Technologies Used
+-   **Streamlit**: For building the interactive web interface.
+-   **OpenAI API**: To leverage GPT models for generating summaries.
+-   **LangChain**: For efficient text processing and chain management.
+-   **HuggingFace Transformers**: For embedding text chunks.
+-   **PyPDF2**: For extracting text from PDF documents.
+-   **FAISS**: For similarity search and efficient retrieval of relevant text chunks.
+-   **python-dotenv**: For managing environment variables securely.
 
   
 
@@ -45,17 +43,18 @@ python3 -m venv venv
 source venv/bin/activate # On Windows, use `venv\Scripts\activate`
 ```
   
-
 3. **Install Dependencies**
 ```bash
 Copy  code
 pip  install  -r  requirements.txt
 ```
 
-2.  **Set Up Environment Variables**
+4. **Set Up Environment Variables**
 - Create a `.env` file in the root directory.
 - Add your OpenAI API key:
- `OPENAI_API_KEY=your_openai_api_key`
+```bash
+OPENAI_API_KEY=your_openai_api_key
+```
 
 
 
@@ -103,15 +102,6 @@ The application requires an OpenAI API key to function correctly. Store your API
 OPENAI_API_KEY = #your_openai_api_key
 ``` 
 
-## Technologies Used
-
--   **Streamlit**: For building the interactive web interface.
--   **OpenAI API**: To leverage GPT models for generating summaries.
--   **LangChain**: For efficient text processing and chain management.
--   **HuggingFace Transformers**: For embedding text chunks.
--   **PyPDF2**: For extracting text from PDF documents.
--   **FAISS**: For similarity search and efficient retrieval of relevant text chunks.
--   **python-dotenv**: For managing environment variables securely.
 
 ## License
 
