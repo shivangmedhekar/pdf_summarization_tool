@@ -32,8 +32,8 @@ The **PDF Summarization App** is a Streamlit-based web application that allows u
 1.  **Clone the Repository**
 
 ```bash
-git clone https://github.com/your-repo/pdf-summarizer.git
-cd pdf-summarizer
+git clone https://github.com/shivangmedhekar/pdf_summarization_tool.git
+cd pdf_summarization_tool
 ```
 
 2.  **Create a Virtual Environment (Optional but Recommended)**
@@ -63,7 +63,7 @@ OPENAI_API_KEY=your_openai_api_key
 1.  **Run the Application**
 
     ```bash
-	streamlit run pdf.py
+	streamlit run code/pdf.py
 	```
     
 2.  **Interact with the App**
